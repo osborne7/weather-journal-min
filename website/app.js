@@ -54,13 +54,13 @@ function execute(e) {
             let kelvinTemp = userData.main.temp;
             let imperialTemp = ((kelvinTemp - 273.15) * 9/5 + 32);
             let roundedTemp = Math.floor(imperialTemp);
-            postData('/addData', {temperature: roundedTemp, date: newDate, userResponse: userFeelings});
+            // postData('/addData', {temperature: roundedTemp, date: newDate, userResponse: userFeelings});
 
-            // postData('http://localhost:8000/addData', {temperature: roundedTemp, date: newDate, userResponse: userFeelings});
+            postData('http://localhost:8000/addData', {temperature: roundedTemp, date: newDate, userResponse: userFeelings});
         } else {
-            postData('/addData', {temperature: 'mystery', date: newDate, userResponse: userFeelings});
+            // postData('/addData', {temperature: 'mystery', date: newDate, userResponse: userFeelings});
 
-            // postData('http://localhost:8000/addData', {temperature: 'mystery', date: newDate, userResponse: userFeelings});
+            postData('http://localhost:8000/addData', {temperature: 'mystery', date: newDate, userResponse: userFeelings});
         }
         })
         //update the UI dynamically

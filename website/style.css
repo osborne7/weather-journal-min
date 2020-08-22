@@ -1,9 +1,11 @@
 body {
-    background: linear-gradient(rgba(250, 238, 216, 0.9),
-    rgba(250, 238, 216, 0.9)), 
-    url('https://images.unsplash.com/photo-1534794048419-48e110dca88e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1296&q=80');
+    /* background: linear-gradient(rgba(250, 238, 216, 0.9),
+    rgba(250, 238, 216, 0.9)),  */
+    /* url('https://images.unsplash.com/photo-1534794048419-48e110dca88e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1296&q=80'); */
     background-size: contain;
     font-family: 'Open Sans Condensed', sans-serif;
+    margin: 0;
+    /* background:#f7f7f7; */
 }
 
 #app {
@@ -16,7 +18,7 @@ body {
 }
 
 #zip {
-    border: 1px solid;
+    /* border: 1px solid blue; */
     margin: 0em 0.5em;
     padding: 0.5em;
 }
@@ -26,10 +28,11 @@ body {
     font-family: 'Amatic SC', cursive;
     font-size: 1.7em;
     width: 90%;
+    border: none;
 }
 
 .entry {
-    background: rgba(211,235,242, 0.2);
+    /* background: rgba(211,235,242, 0.2); */
 }
 
 .response {
@@ -48,9 +51,18 @@ body {
 
 .headline {
     font-family: 'Amatic SC', cursive;
-    font-size: 5em;
-    padding: 1em;
+    font-size: 7em;
+    padding: 4em 1em;
     text-align: center;
+    color: white;
+    /* border: 1px black dashed; */
+    margin: 0em auto 1em auto;
+    border-radius: 0em .0em .1em .1em;
+    background: linear-gradient(rgba(250, 238, 216, 0.1),
+    rgba(250, 238, 216, 0.1)), url('./media/weather.jpg');
+    /* background-size: c; */
+    background-position-y: center;
+    /* margin: 1em; */
 }
 
 .zip {
@@ -61,21 +73,37 @@ body {
     margin: 1em;
 }
 
-#title {
+#title, .enter-header {
     margin: 0.5em;
     font-size: 4.5em;
     text-align: center;
-    font-family: 'Amatic SC', cursive;
-    border-top: 1px solid #fdfde2;
+    color: rgb(101, 150, 214);
+
+    /* font-family: 'Amatic SC', cursive; */
+    /* border-top: 1px solid #fdfde2; */
 }
 
 .content {
     font-size: 1.7em;
 }
 
+hr {
+    width: 50%;
+    /* color: rgb(101, 150, 214); */
+    /* border-radius: 1em; */
+}
+
+
 .entry-holder {
-    border: 1px solid #fdfde2;
+    /* border: 1px solid #fdfde2; */
     padding: 1em;
+     /* background: linear-gradient(rgba(25, 125, 218, .2),
+     rgba(25, 125, 218, 0.05));  */
+     margin: 1em;
+     border: .5em rgb(101, 150, 214) solid;
+     /* border: 1em solid white; */
+     border-radius: 1em;
+    /* margin: 1em; */
 }
 
 label {
@@ -87,7 +115,7 @@ label {
 input {
     height: 60px;
     width: 320px;
-    background: rgba(255, 199, 178, 0.2);
+    background:rgba(101, 150, 214, 0.1);
     color: #708090;
     font-size: 1.7em;
     font-family: 'Amatic SC', cursive;
@@ -95,32 +123,43 @@ input {
 }
 
 #zip:hover, #feelings:hover {
-    background: rgba(205,227,230, 0.2);
+    background: rgba(205,227,230, 0.1);
     transition: all 0.5s;
+    /* border: .3px solid; */
+
 }
+/* 
+.enter-header {
+    font-size: 3em;
+    text-align: center;
+    color: rgb(101, 150, 214);
+} */
+
 
 button {
     width: 7em;
     height: 3em;
-    background: rgba(255,246,223, 0.8);
+    background: rgba(14, 179, 157, 0.5);
     color: #8ca0c5;
     font-size: 2.5em;
     font-family: 'Amatic SC', cursive;
     border: none;
-    box-shadow: 1px 1px 1.4px #444;
-    margin: 0.5em 1em;
+    /* box-shadow: 1px 1px 1.4px #444; */
+    margin: 0.5em 1em 2em 1em;
+    color: white;
 }
 
 button:hover {
-    background: rgba(246,255,237, 0.5);
-    border: 1px solid;
-    transition: all 0.2s;
+    background: rgba(34, 187, 149, 0.7);
+    /* border: .1em solid rgb(228, 228, 93); */
+    /* color: black; */
+    transition: all 0.2s ease-in-out;
     cursor: pointer;
 }
 
 textarea {
     padding: 0.5em;
-    background: rgba(255, 199, 178, 0.2);
+    background:rgba(101, 150, 214, 0.2);
     color: #708090;
     font-size: 20px;
 }
