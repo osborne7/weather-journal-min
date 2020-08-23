@@ -37,18 +37,22 @@ body {
     background: rgba(211,235,242, 0.2);
 } */
 
-.response {
+/* .response {
     padding: 0.5em;
-}
+} */
 
 .date {
     color: #8ca0c5;
-    font-size: 1.3em;
+    font-size: 2.5em;
+    font-family: 'Dawning of a New Day', cursive;
+
 }
 
 .temp {
-    font-size: 1.5em;
+    font-size: 3em;
     color: #bc9e93;
+    font-family: 'Dawning of a New Day', cursive;
+
 }
 
 .headline {
@@ -56,19 +60,34 @@ body {
     font-family: 'Dawning of a New Day', cursive;
     font-size: 7em;
     /* padding: 4em 1em; */
-    text-align: center;
+    /* text-align: center; */
     color: white;
-    width: 100vw;
-    height: 100vh;
     font-weight: 200;
+    /* margin: 0; */
+    align-self: flex-end;
+    /* text-decoration: underline; */
+    /* text-decoration-line: underline; */
+    /* text-decoration-style: wavy; */
+    /* text-decoration-color: #8ca0c5; */
+    /* text-decoration-thickness: unset; */
     /* border: 1px black dashed; */
-    margin: 0em auto 1em auto;
-    border-radius: 0em .0em .1em .1em;
+    /* background-size: c; */
+    /* margin: 1em; */
+}
+
+#hero {
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    /* align-content: center; */
+    /* margin: 0; */
+    margin: 0em auto 5em auto;
+    border-radius: 0em .0em 7em 7em;
     background: linear-gradient(rgba(250, 238, 216, 0.1),
     rgba(250, 238, 216, 0.1)), url('./media/weather.jpg');
-    /* background-size: c; */
-    background-position-y: center;
-    /* margin: 1em; */
+    background-position-y: -370px;
+
 }
 
 .zip {
@@ -90,7 +109,8 @@ body {
 }
 
 .content {
-    font-size: 1.7em;
+    font-size: 1.9em;
+    margin: 1em 0em;
 }
 
 hr {
