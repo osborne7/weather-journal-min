@@ -17,6 +17,10 @@ body {
     margin: 1em;
 }
 
+.user-entry {
+    margin: 0em 2em;
+}
+
 #zip {
     /* border: 1px solid blue; */
     margin: 0em 0.5em;
@@ -125,7 +129,7 @@ hr {
     padding: 1em;
      /* background: linear-gradient(rgba(25, 125, 218, .2),
      rgba(25, 125, 218, 0.05));  */
-     margin: 1em;
+     margin: 4em 2em;
      border: .5em rgb(101, 150, 214) solid;
      /* border: 1em solid white; */
      border-radius: 1em;
