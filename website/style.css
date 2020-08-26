@@ -5,7 +5,6 @@ body {
     background-size: contain;
     font-family: 'Open Sans Condensed', sans-serif;
     margin: 0;
-    /* background:#f7f7f7; */
 }
 
 #app {
@@ -22,7 +21,6 @@ body {
 }
 
 #zip {
-    /* border: 1px solid blue; */
     margin: 0em 0.5em;
     padding: 0.5em;
 }
@@ -54,7 +52,6 @@ body {
 
 .temp {
     font-size: 3em;
-    /* color: #bc9e93; */
     color: rgb(249, 231, 159);
     font-family: 'Dawning of a New Day', cursive;
 
@@ -64,20 +61,10 @@ body {
     /* font-family: 'Amatic SC', cursive; */
     font-family: 'Dawning of a New Day', cursive;
     font-size: 7em;
-    /* padding: 4em 1em; */
-    /* text-align: center; */
     color: white;
     font-weight: 200;
     /* margin: 0; */
     align-self: flex-end;
-    /* text-decoration: underline; */
-    /* text-decoration-line: underline; */
-    /* text-decoration-style: wavy; */
-    /* text-decoration-color: #8ca0c5; */
-    /* text-decoration-thickness: unset; */
-    /* border: 1px black dashed; */
-    /* background-size: c; */
-    /* margin: 1em; */
 }
 
 #hero {
@@ -108,9 +95,6 @@ body {
     font-size: 4.5em;
     text-align: center;
     color: rgb(101, 150, 214);
-
-    /* font-family: 'Amatic SC', cursive; */
-    /* border-top: 1px solid #fdfde2; */
 }
 
 .content {
@@ -120,7 +104,6 @@ body {
 
 hr {
     width: 50%;
-    /* border-radius: 1em; */
 }
 
 
@@ -176,33 +159,16 @@ input {
 button {
     width: 7em;
     height: 3em;
-    /* background: rgba(14, 179, 157, 0.5); */
-    /* color: #8ca0c5; */
-    /* background: rgba(249, 231, 159, 0.7); */
-    /* background: rgba(52, 73, 94, .3); */
-    /* background: rgba(174, 213, 129, .4); */
-    /* background: rgba(38, 198, 218, .3); */
-    background: rgb(101, 150, 214, .5);
+    background: rgba(101, 150, 214, .8);
     font-size: 2.5em;
-    /* font-family: 'Amatic SC', cursive; */
-    /* font-family: 'Dawning of a New Day', cursive; */
     border: none;
-    /* box-shadow: 1px 1px 1.4px #444; */
     margin: 0.5em 1em 2em 1em;
     border-radius: .5em;
     color: white;
-    /* color: rgb(184, 169, 169); */
 }
 
 button:hover {
-    /* background: rgba(34, 187, 149, 0.7); */
-    /* background: rgb(249, 231, 159); */
-    /* background: rgba(52, 73, 94, .7); */
-    /* background: rgba(174, 213, 129, .7); */
-    /* background: rgba(38, 198, 218, .5); */
-    background: rgb(101, 150, 214, .8);
-    /* border: .1em solid rgb(228, 228, 93); */
-    /* color: black; */
+    background: rgb(101, 150, 214);
     transition: all 0.2s ease-in-out;
     cursor: pointer;
 }
