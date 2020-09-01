@@ -3,6 +3,12 @@
         max-width: 80%;
         /* background-size: contain; */
     }
+
+    .user-entry, .entry-holder {
+        max-width: 90%;
+        font-size: 1.5em;
+    }
+
 }
 
 body {
@@ -17,6 +23,8 @@ body {
 #app {
     color: #00002f;
     font-size: 1em;
+    display: flex;
+    /* align-items: center; */
 }
 
 .old-entry {
@@ -25,6 +33,7 @@ body {
 
 .user-entry {
     margin: 0em 2em;
+    align-self: center;
 }
 
 #zip {
@@ -66,7 +75,7 @@ body {
 #headline {
     /* font-family: 'Amatic SC', cursive; */
     font-family: 'Dawning of a New Day', cursive;
-    font-size: 7em;
+    font-size: 8.5em;
     color: white;
     font-weight: 200;
     width: 100vw;
